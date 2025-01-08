@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "diamondcasino",
+	"version": "${version}",
+	"name": "Diamond Casino",
+	"description": "Casino Gambling Mod for 1.21.1",
+	"authors": [
+		"LunaXOXO1",
+		"Snow"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/diamondcasino/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.luna.diamondcasino.DiamondCasino"
+		],
+		"fabric-datagen": [
+			"net.luna.diamondcasino.DiamondCasinoDataGenerator"
+		],
+		"client": [
+			"net.luna.diamondcasino.DiamondCasinoClient"
+		]
+	},
+	"mixins": [
+		"diamondcasino.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
