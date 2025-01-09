@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "diamondcasino:item/black_casino_chip"
+  }
+}
