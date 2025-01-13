@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "diamondcasino:block/chip_exchanger" },
+    "facing=east": { "model": "diamondcasino:block/chip_exchanger", "y": 90 },
+    "facing=south": { "model": "diamondcasino:block/chip_exchanger", "y": 180 },
+    "facing=west": { "model": "diamondcasino:block/chip_exchanger", "y": 270 }
+  }
+}

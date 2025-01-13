@@ -5,5 +5,7 @@
   "item.diamondcasino.blue_casino_chip": "Blue Casino Chip",
   "item.diamondcasino.red_casino_chip": "Red Casino Chip",
   "item.diamondcasino.diamond_casino_chip": "Diamond Casino Chip",
-  "item.diamondcasino.green_casino_chip": "Green Casino Chip"
+  "item.diamondcasino.green_casino_chip": "Green Casino Chip",
+
+  "block.diamondcasino.chip_exchanger": "Chip Exchanger"
 }

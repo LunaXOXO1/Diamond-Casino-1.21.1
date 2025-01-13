@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "diamondcasino:block/chip_exchanger_panel",
+    "side": "diamondcasino:block/chip_exchanger_common",
+    "top": "diamondcasino:block/chip_exchanger_common"
+  }
+}
